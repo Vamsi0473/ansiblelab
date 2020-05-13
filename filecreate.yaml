@@ -1,10 +1,9 @@
----
-  tasks:
-  - name: create file
-    file:
-     path: /home/ansible/testfile
-     state: touch
-  - name: create directory
-    file:
-     path: /home/ansible/testdirectory1
-     state: directory
+tasks:
+- name: create file
+  file:
+   path: /home/ansible/testfile
+   state: touch
+- name: create directory
+  file:
+   path: /home/ansible/testdirectory1
+   state: directory
